@@ -19,7 +19,7 @@ def convert(b):
             i = i + 1
             b = b / 1024
 
-    return str(round(d_b, 2)) + " " + tags[i]
+    return str(round(d_b)) + " " + tags[i]
 
 def used_percent(u, t):
     percent = round(u / t * 100)
